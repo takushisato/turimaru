@@ -1,0 +1,450 @@
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.navbar > li {
+    margin: 0 20px;
+}
+
+
+/* 基本 */
+h1 > a {
+	padding: 0;
+	margin: 0;
+}
+
+#text-4 {
+	background: white;
+	border: 1px solid #a9a9a9;
+}
+
+p.thermometer {
+    display:none;
+}
+
+#wij_container {
+	background: white;
+		border: 1px solid #a9a9a9;
+}
+
+#wij_weather_in_japan {
+	margin-top: 15px;
+}
+
+#logo .h1.text{
+  font-size: 25px;
+}
+
+#logo {
+	margin-top: 60px;
+}
+
+.subnav {
+	font-size: 15px;
+}
+
+#custom_header {
+	height: 250px;
+}
+
+#g_nav ul li a {
+	font-size: 15px;
+}
+
+#recent-posts-2 {
+	background: white;
+}
+
+#meta-2 {
+	background: white;
+		border: 1px solid #a9a9a9;
+}
+
+#recent-comments-2 {
+	background:white;
+		border: 1px solid #a9a9a9;
+}
+
+.map {
+	text-align: center;
+}
+
+/* ここからtop */
+.hatimaki {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #f5f5f5;
+	border-radius: 5px;
+}
+
+.container > h2 {
+    text-align: center;
+    font-size: 35px;
+	  font-weight: bold;
+	  text-decoration: underline;
+	  padding-top: 20px;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.top-message {
+    margin:  0 auto;
+	  background: #f5f5f5;
+	text-align: center;
+}
+
+.top-message > h3 {
+    font-size: 30px;
+}
+
+.top-img {
+    max-width: 400px;
+    max-height: 250px;
+	    margin:  0 auto;
+}
+
+.top-renrakusaki {
+    text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+/* ここから魚期待 */
+.sakana-boutou {
+	text-align: center;
+}
+
+.kitai > p {
+    text-align: left;
+}
+
+.fish-data {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 3px double lightgray;
+}
+
+.kitai h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.fish-data  h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.images-setumei {
+    display: flex;
+}
+
+.fish-left {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fish-images {
+    display: flex;
+    width: 100%;
+}
+
+.fish-img {
+    width: 50%;
+    height: auto;
+    max-height: 413px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.fish-monthes {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.fish-month {
+    border: 1px solid gray;
+    font-size: 12px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.fish-setumei {
+    width: 50%;
+    margin: 0 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.sasie {
+    text-align: center;
+}
+
+.sasie > img {
+    max-width: 600px;
+    width: 600px;
+    margin: 10px auto;
+    margin-bottom: 0;
+}
+
+.sasie > p {
+    color: blue;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.fuinitureta {
+    text-align: center;
+}
+
+.fuinitureta h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.fuinitureta  h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fui-img {
+    margin: 10px auto;
+    max-height: 500px;
+    max-width: 95%;
+}
+
+/* ここから自己紹介 */
+table{
+    margin: 30px auto;
+    width: 80%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
+table th,table td{
+    padding: 10px 0;
+    text-align: center;
+}
+  
+table tr:nth-child(odd){
+    background-color: #eee
+}
+
+.sentyo-message-ryouiki {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sentyo-message {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.jikosyoukai {
+    text-align: center;
+}
+
+.jikosyoukai > img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jikosyoukai-images, .tv-images {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+}
+
+.jigazou {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.jigazou > img, .tv-syutuen > img {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.aibou-text {
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+.aibou1, .aibou4, .sono1, .sono2, .sono3, .sono4, .sono5, .sono6, .sono7, .sono8 {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.aibou1 {
+    background-image: url(../img/aibou1.jpg);
+}
+
+.aibou4 {
+    background-image: url(../img/aibou4.jpg);
+}
+
+.sono1 {
+    background-image: url(../img/sono1.jpg);
+}
+
+.sono2 {
+    background-image: url(../img/sono2.jpg);
+}
+
+.sono3 {
+    background-image: url(../img/sono3.jpg);
+}
+
+.sono4 {
+    background-image: url(../img/sono4.jpg);
+}
+
+.sono5 {
+    background-image: url(../img/sono5.jpg);
+}
+
+.sono6 {
+    background-image: url(../img/sono6.jpg);
+}
+
+.sono7 {
+    background-image: url(../img/sono7.jpg);
+}
+
+.sono8 {
+    background-image: url(../img/sono8.jpg);
+}
+
+.aibou2-3 {
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.aibou-setumei {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.aibou-setumei > p {
+    text-align: left;
+}
+
+.aibou-setumei img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:800px) {
+/* 基本*/
+ .mobile_site_description, .site_description {
+  font-size: 15px;
+}
+#logo .h1.text{
+  font-size: 40px;
+}
+	
+	#logo {
+	margin-top: auto;
+}
+
+	header {
+		height: 130px;
+	}
+	
+/* トップ */
+     .container > h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .top-message > h3 {
+        font-size: 20px;
+    }
+
+    .container {
+        text-align: center;
+    }
+    .top {
+        display: block;
+    }
+
+    .top-img {
+        max-width: 750px;
+        height: auto;
+        margin: 0 auto;
+    }
+	
+	  /* 狙いの魚 */
+    .images-setumei {
+        display: block;
+    }
+
+    .fish-left, .fish-setumei {
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    .sasie > img {
+        width: 95%;
+    }
+
+    /* 自己紹介 */
+    .jikosyoukai-images, .tv-images, .aibou2-3 {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .aibou-setumei, .jigazou {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .sentyo-message-ryouiki {
+        width: 90%;
+    }
+
+    .jikosyoukai > img, 
+    .aibou-setumei > img,
+    .tv-syutuen > img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:755px) {
+	header {
+		height: auto;
+	}
+	
+	.fuinitureta  > p{
+		margin: 5px auto;
+		text-align: left;
+		width: 95%
+	}
+}
